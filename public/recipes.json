@@ -1,0 +1,142 @@
+[
+    {
+        "recipe_id": "1",
+        "recipe_name": "Chicken Stir-Fry",
+        "recipe_image": "https://natashaskitchen.com/wp-content/uploads/2018/08/Chicken-Stir-Fry-1-1-480x270.jpg",
+        "short_description": "A flavorful and healthy stir-fry dish with tender chicken and assorted vegetables.",
+        "ingredients": [
+            "550 g chicken",
+            "120 ml soy sauce",
+            "200 g basil leaf",
+            "400 g mushroom"
+        ],
+        "preparing_time": 30,
+        "calories": 320
+    },
+    {
+        "recipe_id": "2",
+        "recipe_name": "Vegetable Pasta",
+        "recipe_image": "https://i.ibb.co/fF12drW/Rectangle-20170.png",
+        "short_description": "Delicious pasta dish packed with colorful vegetables and savory sauce.",
+        "ingredients": [
+            "300 g pasta",
+            "2 cups mixed vegetables",
+            "1 can tomato sauce",
+            "100 g parmesan cheese"
+        ],
+        "preparing_time": 25,
+        "calories": 280
+    },
+    {
+        "recipe_id": "3",
+        "recipe_name": "Grilled Salmon",
+        "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRltVi6MGOJkGoQfPdYSTi8EgjhtwOyQSXIsQ&usqp=CAU",
+        "short_description": "Juicy grilled salmon fillets marinated in herbs and spices.",
+        "ingredients": [
+            "4 salmon fillets",
+            "3 tbsp olive oil",
+            "1 lemon",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": 20,
+        "calories": 380
+    },
+    {
+        "recipe_id": "4",
+        "recipe_name": "Beef Tacos",
+        "recipe_image": "https://img.taste.com.au/HevzTzfl/w1200-h630-cfill/taste/2020/06/july20_fast-beef-tacos-162770-1.jpg",
+        "short_description": "Classic Mexican tacos filled with seasoned ground beef, lettuce, cheese, and salsa.",
+        "ingredients": [
+            "400 g ground beef",
+            "8 taco shells",
+            "1 cup shredded lettuce",
+            "1 cup shredded cheddar cheese"
+        ],
+        "preparing_time": 25,
+        "calories": 290
+    },
+    {
+        "recipe_id": "5",
+        "recipe_name": "Greek Salad",
+        "recipe_image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2023/05/Greek-Salad-9.jpg",
+        "short_description": "Fresh and tangy salad with crisp lettuce, tomatoes, cucumbers, and feta cheese.",
+        "ingredients": [
+            "1 head romaine lettuce",
+            "2 tomatoes",
+            "1 cucumber",
+            "100 g feta cheese"
+        ],
+        "preparing_time": 15,
+        "calories": 180
+    },
+    {
+        "recipe_id": "6",
+        "recipe_name": "Mushroom Risotto",
+        "recipe_image": "https://i0.wp.com/www.combekk.com/wp-content/uploads/2022/12/risotto-e1669893431544.png?fit=1362%2C908&ssl=1",
+        "short_description": "Creamy and comforting risotto with earthy mushrooms and rich parmesan cheese.",
+        "ingredients": [
+            "300 g Arborio rice",
+            "500 g mushrooms",
+            "1 onion",
+            "1 cup vegetable broth"
+        ],
+        "preparing_time": 40,
+        "calories": 350
+    },
+    {
+        "recipe_id": "7",
+        "recipe_name": "Caprese Salad",
+        "recipe_image": "https://mediavine-res.cloudinary.com/image/upload/s--8solKfZ8--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1658962479/yhvd1djc5to868gnzxbl.jpg",
+        "short_description": "Simple and elegant Italian salad with ripe tomatoes, fresh mozzarella, and basil leaves.",
+        "ingredients": [
+            "3 tomatoes",
+            "200 g fresh mozzarella",
+            "1/4 cup fresh basil leaves",
+            "2 tbsp balsamic vinegar"
+        ],
+        "preparing_time": 10,
+        "calories": 220
+    },
+    {
+        "recipe_id": "8",
+        "recipe_name": "Quinoa Salad",
+        "recipe_image": "https://www.macrostax.com/wp-content/uploads/2021/12/Blog_Featured_Image_-_Harvest_Quinoa_Salad-1.png",
+        "short_description": "Nutritious salad with protein-packed quinoa, colorful vegetables, and zesty dressing.",
+        "ingredients": [
+            "1 cup quinoa",
+            "1 bell pepper",
+            "1 cup cherry tomatoes",
+            "1/2 cup chopped parsley"
+        ],
+        "preparing_time": 20,
+        "calories": 250
+    },
+    {
+        "recipe_id": "9",
+        "recipe_name": "Shrimp Scampi",
+        "recipe_image": "https://i.ibb.co/0rvyqCM/Rectangle-20170-1.png",
+        "short_description": "Buttery and garlicky shrimp served over a bed of linguine pasta.",
+        "ingredients": [
+            "400 g shrimp",
+            "200 g linguine pasta",
+            "4 cloves garlic",
+            "1/2 cup white wine"
+        ],
+        "preparing_time": 35,
+        "calories": 320
+    },
+    {
+        "recipe_id": "10",
+        "recipe_name": "Vegetable Stir-Fry",
+        "recipe_image": "https://i0.wp.com/www.core-goods.com/wp-content/uploads/2019/06/Vegetable-Stir-Fry.png?fit=600%2C360&ssl=1",
+        "short_description": "Quick and healthy stir-fry loaded with assorted vegetables and flavorful sauce.",
+        "ingredients": [
+            "2 cups broccoli florets",
+            "1 bell pepper",
+            "1 carrot",
+            "150 g snow peas"
+        ],
+        "preparing_time": 20,
+        "calories": 200
+    }
+]
