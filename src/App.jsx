@@ -13,11 +13,11 @@ function App() {
   const handleClickToCook = (orderRecipe) => {
     const newRecipe = recipe.find(item => item.recipe_id == orderRecipe.recipe_id)
     if (!newRecipe) {
-      toast.success('Selected...!')
+      toast.success('Added...!')
       setRecipe([...recipe, orderRecipe])
     }
     else {
-      toast.warn('Already Add')
+      toast.warn('Already Added..!')
     }
   }
 
@@ -38,7 +38,7 @@ function App() {
         <Banner></Banner>
         <div className='md:mt-20'>
           <h1 className='text-4xl font-bold text-[#150B2B] text-center'>Our Recipes</h1>
-          <p className='text-center text-[#150B2B99] my-5'>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget <br /> urna volutpat curabitur elementum mauris aenean neque.</p>
+          <p className='text-center text-[#150B2B99] my-5'>Awareness of calorie intake assists in making informed dietary choices and achieving fitness goals. Balancing flavor <br className='hidden md:block'/> and  nutritional value ensures that recipes are both delicious and healthful.</p>
           <div className='flex flex-col-reverse lg:grid grid-cols-5 gap-6 mt-14'>
             <Recipes handleClickToCook={handleClickToCook} ></Recipes>
             <Order recipe={recipe} currCook={currCook} handleClickToPreparing={handleClickToPreparing}></Order>
