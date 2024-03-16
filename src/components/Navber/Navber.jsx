@@ -9,14 +9,14 @@ const Navber = () => {
                     <a className="text-2xl md:text-3xl font-bold text-[#120B2B]">Recipe Calories</a>
                 </div>
                 <div className="list-none gap-8 hidden lg:flex text-[#150B2BB3]">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Recipes</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Search</a></li>
+                    <li className="hover:text-[#0BE58A]"><a href="">Home</a></li>
+                    <li className="hover:text-[#0BE58A]"><a href="">Recipes</a></li>
+                    <li className="hover:text-[#0BE58A]"><a href="">About</a></li>
+                    <li className="hover:text-[#0BE58A]"><a href="">Search</a></li>
                 </div>
                 <div className="flex-none gap-3">
                     <div className="form-control relative hidden md:block">
-                        <input type="text" placeholder="Search" className="input pl-10 rounded-full text-[#150B2BB3] bg-[#150B2B14]" />
+                        <input type="text" placeholder="Search" className="input pl-12 rounded-full text-[#150B2BB3] bg-[#150B2B14]" />
                         <div className="absolute top-[30%] left-4 text-xl cursor-pointer"><IoSearchOutline /></div>
                     </div>
                     <div className="dropdown dropdown-end cursor-pointer">

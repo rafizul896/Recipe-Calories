@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Orderitem = ({item,idx}) => {
+const Orderitem = ({item,idx,handleClickToPreparing}) => {
     const {recipe_name,preparing_time,calories} = item;
     return (
         <tr className="bg-base-200">
@@ -9,7 +9,7 @@ const Orderitem = ({item,idx}) => {
             <td>{preparing_time}</td>
             <td>{calories}</td>
             <td>
-                <button className="border px-2 py-2 rounded-2xl bg-[#0BE58A] text-sm">Preparing</button>
+                <button onClick={()=>handleClickToPreparing(item)} className="border px-2 py-2 rounded-2xl bg-[#0BE58A] text-sm">Preparing</button>
             </td>
         </tr>
     );
@@ -17,7 +17,8 @@ const Orderitem = ({item,idx}) => {
 
 Orderitem.propTypes = {
     item: PropTypes.object,
-    idx: PropTypes.number
+    idx: PropTypes.number,
+    handleClickToPreparing: PropTypes.func
 }
 
 export default Orderitem;
