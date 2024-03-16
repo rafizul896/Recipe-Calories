@@ -5,4 +5,12 @@
 
 body {
   font-family: "Lexend", sans-serif;
+  width: 82.5%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    width: 90%;
+  }
 }
