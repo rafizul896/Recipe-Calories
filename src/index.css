@@ -8,6 +8,7 @@ body {
   font-family: "Lexend", sans-serif;
   width: 82.5%;
   margin: 0 auto;
+  max-width: 1440px;
 }
 
 @media screen and (max-width: 576px) {
